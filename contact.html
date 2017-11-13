@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Colleen Miller Basic Portfolio</title>
+  <!-- We need to bring in the bootstrap CSS -->
+  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>  
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class = "navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Colleen Miller</a>   
+      </div>
+      <div id="navbar" class="navbar-collapse collapse navbar-right">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="./index.html">About</a></li>
+          <li><a href="./portfolio.html">Portfolio</a></li>
+          <li><a href="./contact.html">Contact</a></li>        
+        </ul>        
+      </div> 
+    </div>     
+  </nav>
+	 <div class="container content">
+    	<div class="row">
+      		<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 mainSection">
+				<h1>Contact</h1>
+				<form>
+					Name<br>
+					<input type="text" value="John Smith"><br>
+					Email<br>
+					<input type="text" value="example@gmail.com"><br>
+					Message<br>
+					<input id="messageField" type="text"><br>
+					<input id="submitButton" type="submit">
+				</form>
+			</div>		
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">			
+            <div class="connectWithMe sideBar">
+            	<div class="row"> 
+	              <h2>Connect with Me</h2>
+	              <a href="https://github.com/crawleen/crawleen.github.io" target="_blank">
+	                <img class="contactImage" src=./assets/images/github.png alt="git hub"/>
+	              </a>
+	              <a href="https://www.facebook.com/crawleen" target="_blank">
+	                <img class="contactImage" src=./assets/images/fb.png alt="facebook"/>
+	              </a>
+	              <a href="https://www.linkedin.com/in/colleen-miller-36764a1/" target="_blank">
+	                <img class="contactImage" src=./assets/images/linkedIn.png alt="linkedIn"/>
+	              </a>
+	          	</div>
+            </div>
+         </div>
+        </div>
+	</div>
+	<footer class="footer"><p>@Copyright2017 Colleen Miller</p></footer>
+</body>
+</html>
